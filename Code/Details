@@ -1,0 +1,13 @@
+This project is an implementation of the stock market account management system that lets user interact with the stock portfolio, buy and sell shares and also maintain a bank account associated with it. 
+Here is a brief description of all the files and the functions defined –
+
+StockAccount.cpp: Used to perform functionality like buy and sell shares from the system, display portfolio, get the balance, get portfolio summary, print history of stock trade and save the port folio
+
+BankAccount.cpp: Used to perform functions like get bank account balance, deposit cash, withdraw and view the current balance.
+
+There are different files that have been used for the functionality:
+
+balance_file: Used to store the updated balance and can be accessed by both Stock and Bank Account
+balance_transaction_history: List of transaction events performed
+portfolio: Entire portfolio like shares, price, number of shares being held
+TransactionHistory: Storing list of transasction events along with their time and date for both Bank and Stock accounts.
